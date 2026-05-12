@@ -62,7 +62,7 @@ pipeline {
 
     post {
         success {
-            echo 'Pipeline completado exitosamente!'
+            echo 'Pipeline completado exitosamente felicidades!'
         }
         failure {
             echo 'Pipeline fallo. Revisa el Console Output.'
