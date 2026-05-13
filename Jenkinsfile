@@ -30,7 +30,7 @@ pipeline {
 
         stage('Test - Sintaxis PHP') {
             steps {
-                echo 'Verificando sintaxis PHP...'
+                echo 'Verificando sintaxis PHP.....'
                 bat 'php -l src\\api\\add.php'
                 bat 'php -l src\\api\\db.php'
                 bat 'php -l src\\api\\delete.php'
